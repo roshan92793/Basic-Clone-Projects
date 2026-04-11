@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    background-color: rgb(11, 142, 219);
+}
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.box1{
+    color:rgb(11, 142, 219);
+    height: 28px;
+    font-size: 25px;
+    width: 28px;
+    background-color: aliceblue;
+    font-weight: 800;
+    margin-left: 100px;
+}
+.box2{
+    margin-left: 400px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+
+}
+.box3{
+    margin-left: 50px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    
+}
+.box4{
+    margin-left: 50px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    
+}
+.box5{
+    margin-left: 50px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    
+}
+.box6{
+    margin-left: 300px;
+    border: none;
+    margin-top: 0px;
+    align-items: top;
+    background-color: aliceblue;
+}
+.start{
+    color:aliceblue;
+    border-radius: 9px ;
+    border: transparent;
+    height: 35px;
+    width: 140px;
+    font-size: larger;
+}
+.second{
+    height: 500px;
+    width: 100%
+}
+.body{
+    color:aliceblue;
+    font-size: 50px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 25%;
+}
+.paragraph{
+    color:aliceblue;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 26%;
+    width: 690px;
+}
+.free{
+    background-color:rgb(58, 155, 241);
+    border-radius: 5px ;
+    border: transparent;
+    height: 45px;
+    width: 140px;
+    font-size: large;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-left: 40%;
+    border: 3px solid white;
+}
+.learn{
+    background-color:rgb(58, 155, 241);
+    border-radius: 5px ;
+    border: 3px solid white;
+    height: 45px;
+    width: 140px;
+    font-size: large;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.border:hover{
+    border: 1.4px solid rgb(58, 155, 241);
+    color:rgb(58, 155, 241);
+    background-color: aliceblue;
+}
+.choose{
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    color: rgb(14, 14, 15);
+    background-color: aliceblue;
+}
+.content i {
+    color: goldenrod;
+}
+.fast{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.modern{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.secure{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.ready{
+    text-align: center;
+    height: 200px;
+    color: rgb(255, 253, 253);
+    height: 100px;
+    background-color: rgb(9, 51, 131);
+    padding: 50px;
+}
+.para{
+    background-color: rgb(9, 51, 131);
+    text: white;
+    font-size: 25px;
+}
+.join{
+    margin-top: 20px;
+    color:aliceblue;
+    border-radius: 9px ;
+    border: transparent;
+    height: 35px;
+    width: 140px;
+    font-size: larger;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 650px;
+    position: relative;
+}
+.whole {
+    width: 100%;
+    background: #0b76d3;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #AEBCCD;
+    padding: 60px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(11, 10, 10);
+    padding-right: 80px;
+    
+}
+
+.login-box input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid black;
+    outline: none;
+    
+}
+
+.login-box button {
+    width: 110%;
+    padding: 10px;
+    background: #0b8ce8;
+    border: 2px solid black;
+    background-color: #1e76e0;
+    border-radius: 5px;
+    padding-right: 10px;
+    margin-top: 20px;
+    
+}
+.login{
+    background-color: #AEBCCD;
+}
+.text{
+    background-color: #AEBCCD;
+    
+}
+.footer {
+    position: relative;
+    position: bottom;
+    bottom: 0;
+    width: 98.6%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.6); /* transparent dark */
+}
